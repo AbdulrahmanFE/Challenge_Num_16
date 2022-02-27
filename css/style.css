@@ -70,7 +70,7 @@
 /* Lager Screen Than 1400px */
   @media (min-width: 1400px){
     .container {
-      width: 1300px;
+      width: 1290px;
   }
   }
 /* Styling The Header */
@@ -83,7 +83,7 @@
     justify-content: space-between;
   }
   .header-logo {
-    width: 90%;
+    width: 92%;
   }
   @media (max-width: 767px) {
     .header-logo {
@@ -118,10 +118,10 @@
   }
 /* Styling The Landing */
   .landing-img{
-    width: 85%;
+    width: 80%;
   }
   .landing {
-    padding: 175px 0;
+    padding: 170px 0 200px;
     width: 100%;
     margin: auto;
   }
@@ -147,7 +147,8 @@
     margin: auto;
   }
   .get {
-    padding: 25px 70px;
+    padding: 28px 80px;
+    font-size: 18px;
     border-radius: 50px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -169,14 +170,14 @@
     justify-content: space-between;
   }
   .num {
-    font-size: 5rem;
+    font-size: 5.5rem;
     font-weight: 700;
     text-align: center;
   }
   .num + p {
     color: #8597b2;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 600;
   }
 /* ----- Making The Whole Landing Responsive ----- */
@@ -221,7 +222,7 @@
     padding: 75px 0;
   }
   .features .box:nth-of-type(2) .container {
-    padding: 200px 0;
+    padding: 225px 0;
   }
   .features .box:first-of-type,
   .features .box:last-of-type {
@@ -389,7 +390,7 @@
     font-size: 2.2rem;
   }
   .build .get {
-    padding: 25px 95px;
+    padding: 25px 85px;
   }
   @media (max-width: 767px) {
     .build-title {
@@ -409,11 +410,11 @@
     content: "";
     position: absolute;
     width: 100%;
-    height: 50%;
+    height: 40%;
     background-image: url(../images/bg-footer-top-desktop.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    bottom: calc(100% - 105px);
+    bottom: calc(100% - 50px);
   }
   @media (max-width: 1350px) {
     footer {
@@ -421,6 +422,7 @@
     }
     footer::before {
       bottom: calc(100% - 110px);
+      height: 50% !important;
     }
   }
   @media (max-width: 1279px) {
@@ -540,7 +542,7 @@
     footer::before {
     background-image: url(../images/bg-footer-top-mobile.svg);
     bottom: calc(100% - 100px);
-    height: 25%;
+    height: 25% !important;
     }
     footer > .container {
       flex-direction: column-reverse;
