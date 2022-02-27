@@ -129,7 +129,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 105px;
+    gap: 109px;
   }
   .landing-content {
     text-align: center;
@@ -150,7 +150,7 @@
     font-size: 18px;
     border-radius: 50px;
     font-weight: 600;
-    margin: 50px auto 0;
+    margin: 45px auto 0;
     background: linear-gradient(to right, var(--Pink) 50%, white 50%);
     background-size: 201% 100%;
     background-position: left bottom;
@@ -181,7 +181,7 @@
   .num + p {
     color: #8597b2;
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 600;
   }
 /* ----- Making The Whole Landing Responsive ----- */
@@ -227,8 +227,9 @@
   }
   @media (min-width: 1440px) {
     .features .box .container {
-      width: 80% !important;
+      width: 85% !important;
       gap: 125px !important;
+      padding: 100px 0 75px;
     }
   }
   .features .box:nth-of-type(2) .container {
