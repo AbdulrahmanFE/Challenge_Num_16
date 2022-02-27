@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Google Fonts = Headings / Body-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <!-- / -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
+  </head>
+  <body>
+    <main>
+    <!-- Header -->
+      <header>
+        <div class="container">
+          <a href="#" class="logo">
+            <img src="images/logo.svg" alt="Logo" class="header-logo">
+          </a>
+          <button class="try">Try It Free</button>
+      </header>
+      <!-- Landing -->
+      <div class="landing">
+        <div class="container">
+          <div class="landing-content">
+            <h1 class="landing-title">Build The Community Your Fans Will Love</h1>
+            <p class="landing-des">
+              Huddle re-imagines the way we build communities. You have a voice, but so does 
+              your audience. Create connections with your users as you engage in genuine discussion. 
+            </p>
+            <button class="get">Get Started For Free</button>
+          </div>
+          <img src="images/screen-mockups.svg" alt="screen-mockups" class="landing-img">
+          <div class="stats">
+            <div class="landing-box">
+              <img src="images/icon-communities.svg" alt="icon-communities" class="stat-img">
+              <p class="num">1.4k+</p>
+              <p>Communities Formed</p>
+            </div>
+            <div class="landing-box">
+              <img src="images/icon-messages.svg" alt="icon-messages" class="stat-img">
+              <p class="num">2.7m+</p>
+              <p>Messages Sent</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Features -->
+      <div class="features">
+          <div class="box">
+            <div class="container">
+            <div class="fea-info">
+              <h2 class="fea-title">Grow Together</h2>
+              <p class="fea-des">
+                Generate meaningful discussions with your audience and build a strong, loyal community. 
+                Think of the insightful conversations you miss out on with a feedback form.
+              </p>
+            </div>
+            <img src="images/illustration-grow-together.svg" alt="illustration-grow-together" class="feature-img">
+            </div>
+          </div>
+          <div class="box">
+            <div class="container">
+            <img src="images/illustration-flowing-conversation.svg" alt="illustration-flowing-conversation" class="feature-img">
+            <div class="info">
+              <h2 class="fea-title">Flowing Conversations</h2>
+              <p class="fea-des">
+                You wouldn't paginate a conversation in real life, so why do it online? Our threads 
+                have just-in-time loading for a more natural flow.
+              </p>
+            </div>
+            </div>
+          </div>
+          <div class="box">
+            <div class="container">
+            <div class="info">
+              <h2 class="fea-title">Your Users</h2>
+              <p class="fea-des">
+                It takes no time at all to integrate Huddle with your app's authentication solution. 
+                This means, once signed in to your app, your users can start chatting immediately.
+              </p>
+            </div>
+            <img src="images/illustration-your-users.svg" alt="illustration-your-users" class="feature-img">
+            </div>
+          </div>
+      </div>
+      <!-- Build Section -->
+      <div class="build">
+        <div class="container">
+          <h1 class="build-title">Ready To Build Your Community?</h1>
+          <button class="get">Get Started For Free</button>
+        </div>
+      </div>
+      <!-- Footer -->
+      <footer>
+        <div class="container">
+          <div class="box">
+            <img src="images/footer-logo.svg" alt="footer-logo" class="footer-logo">
+            <p class="footer-p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
+              vestibulum a, ultrices quis sem.
+            </p>
+            <ul class="info">
+              <li>
+                <img src="images/icon-phone.svg" alt="icon-phone">
+                <p>Phone: +1-543-123-4567</p>
+              </li>
+              <li>
+                <label for="email"><img src="images/icon-email.svg" alt="icon-email"></label>
+                <p>
+                  <a href="mailto:example@huddle.com">example@huddle.com</a>
+                </p>
+              </li>
+            </ul>
+            <div class="social">
+              <a href="#" title="Facebook" style="--color: #1877F2;"><i class="fab fa-facebook-square"></i></a>
+              <a href="#" title="Instagram" style="--color: #E4405F;"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#" title="Twitter" style="--color: #1DA1F2;"><i class="fa-brands fa-twitter-square"></i></a>
+            </div>
+          </div>
+          <div class="box">
+          <h2 class="news-title">Newsletter</h2>
+          <p class="news-des">
+            To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+            send you spam or pass on your email address
+          </p>
+          <form class="sub-form">
+            <input id="email" type="email" required class="email-input" placeholder="Enter Your E-mail..."
+            oninvalid="this.setCustomValidity('Check Your Email')"
+            oninput="setCustomValidity('')">
+            <input type="submit" value="Subscribe" class="sub-input">
+          </form>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
