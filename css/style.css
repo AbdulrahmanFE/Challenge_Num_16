@@ -120,7 +120,7 @@
     width: 83%;
   }
   .landing {
-    padding: 150px 0 250px;
+    padding: 150px 0 245px;
     width: 100%;
     margin: auto;
   }
@@ -129,7 +129,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 110px;
+    gap: 105px;
   }
   .landing-content {
     text-align: center;
@@ -227,11 +227,11 @@
   }
   @media (min-width: 1440px) {
     .features .box .container {
-      width: 1270px !important;
+      width: 1250px !important;
     }
   }
   .features .box:nth-of-type(2) .container {
-    padding: 225px 0 205px;
+    padding: 230px 0 205px;
   }
   .features .box:first-of-type,
   .features .box:last-of-type {
@@ -272,7 +272,7 @@
   }
   .fea-title {
     margin-bottom: 25px;
-    font-size: 2.75rem;
+    font-size: 2.7rem;
   }
   .fea-des {
     line-height: 1.5;
