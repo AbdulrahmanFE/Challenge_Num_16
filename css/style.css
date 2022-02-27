@@ -70,12 +70,12 @@
 /* Lager Screen Than 1400px */
   @media (min-width: 1400px){
     .container {
-      width: 1315px;
+      width: 1300px;
   }
   }
 /* Styling The Header */
   header {
-    padding: 50px 0;
+    padding: 80px 0;
   }
   header > .container {
     display: flex;
@@ -83,7 +83,7 @@
     justify-content: space-between;
   }
   .header-logo {
-    width: 85%;
+    width: 90%;
   }
   @media (max-width: 767px) {
     .header-logo {
@@ -118,10 +118,10 @@
   }
 /* Styling The Landing */
   .landing-img{
-    width: 70%;
+    width: 85%;
   }
   .landing {
-    padding: 150px 0;
+    padding: 175px 0;
     width: 100%;
     margin: auto;
   }
@@ -136,7 +136,7 @@
     text-align: center;
   }
   .landing-title {
-    font-size: 2.6rem;
+    font-size: 2.8rem;
     font-weight: 700;
     margin-bottom: 20px;
   }
@@ -147,7 +147,7 @@
     margin: auto;
   }
   .get {
-    padding: 20px 70px;
+    padding: 25px 70px;
     border-radius: 50px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -165,7 +165,7 @@
   }
   .stats {
     display: flex;
-    width: 55%;
+    width: 70%;
     justify-content: space-between;
   }
   .num {
@@ -249,16 +249,11 @@
   }
   .features .box:last-of-type::before {
     background-image: url(../images/bg-section-top-desktop-2.svg);
-    bottom: calc(100% - 60px);
+    bottom: calc(100% - 65px);
   }
   @media (min-width: 992px) and (max-width: 1349px) {
     .features .box:last-of-type::before {
       bottom: calc(100% - 75px);
-    }
-  }
-  @media (min-width: 1100px) and (max-width: 1199px) {
-    .features .box:last-of-type::before {
-      bottom: calc(100% - 65px);
     }
   }
   .features .box:last-of-type::after {
@@ -387,21 +382,27 @@
   }
 /* Styling The Section Under The Features */
   .build {
-    padding: 100px 0 300px;
+    padding: 125px 0 400px;
   }
   .build-title {
     text-align: center;
-    font-size: 1.975rem;
+    font-size: 2.2rem;
+  }
+  .build .get {
+    padding: 25px 95px;
   }
   @media (max-width: 767px) {
     .build-title {
       font-size: 1.7rem;
     }
+    .build .get {
+      padding: 25px 80px;
+    }
   }
 /* Styling The Footer */
   footer {
     background-color: var(--VeryDarkCyan);
-    padding: 100px 0;
+    padding: 125px 0;
     position: relative;
   }
   footer::before {
@@ -412,9 +413,12 @@
     background-image: url(../images/bg-footer-top-desktop.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    bottom: calc(100% - 80px);
+    bottom: calc(100% - 105px);
   }
   @media (max-width: 1350px) {
+    footer {
+      padding: 100px 0 !important;
+    }
     footer::before {
       bottom: calc(100% - 110px);
     }
