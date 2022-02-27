@@ -414,7 +414,12 @@
     background-image: url(../images/bg-footer-top-desktop.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    bottom: calc(100% - 70px);
+    bottom: calc(100% - 60px);
+  }
+  @media (max-width: 1460px) {
+    footer::before {
+      bottom: calc(100% - 75px);
+    }
   }
   @media (max-width: 1350px) {
     footer {
@@ -477,7 +482,7 @@
     cursor: pointer;
   }
   .social {
-    margin-top: 100px;
+    margin-top: 75px;
   }
   .social  i {
     transition: 0.3s;
