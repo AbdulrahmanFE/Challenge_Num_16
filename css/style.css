@@ -227,11 +227,11 @@
   }
   @media (min-width: 1440px) {
     .features .box .container {
-      width: 1280px;
+      width: 1270px !important;
     }
   }
   .features .box:nth-of-type(2) .container {
-    padding: 215px 0;
+    padding: 225px 0 205px;
   }
   .features .box:first-of-type,
   .features .box:last-of-type {
@@ -392,11 +392,11 @@
   }
 /* Styling The Section Under The Features */
   .build {
-    padding: 125px 0 350px;
+    padding: 110px 0 350px;
   }
   .build-title {
     text-align: center;
-    font-size: 2.2rem;
+    font-size: 2.5rem;
   }
   .build .get {
     padding: 26px 85px;
