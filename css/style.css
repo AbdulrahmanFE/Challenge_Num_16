@@ -167,7 +167,7 @@
   }
   .stats {
     display: flex;
-    width: 72%;
+    width: 71%;
     justify-content: space-between;
   }
   .stat-img {
@@ -227,7 +227,8 @@
   }
   @media (min-width: 1440px) {
     .features .box .container {
-      width: 1250px !important;
+      width: 80% !important;
+      gap: 125px !important;
     }
   }
   .features .box:nth-of-type(2) .container {
@@ -399,7 +400,7 @@
     font-size: 2.5rem;
   }
   .build .get {
-    padding: 26px 85px;
+    padding: 26px 100px;
     margin-top: 40px;
   }
   @media (max-width: 767px) {
@@ -407,7 +408,7 @@
       font-size: 1.7rem;
     }
     .get {
-      padding: 25px 80px;
+      padding: 25px 80px !important;
       font-size: 16px;
     }
   }
