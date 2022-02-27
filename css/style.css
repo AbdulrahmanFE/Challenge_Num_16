@@ -83,7 +83,7 @@
     justify-content: space-between;
   }
   .header-logo {
-    width: 92%;
+    width: 93%;
   }
   @media (max-width: 767px) {
     .header-logo {
@@ -96,7 +96,7 @@
     }
   }
   .try {
-    padding: 10px 40px;
+    padding: 10px 30px;
     color: var(--Pink);
     border: 1px solid var(--Pink);
     border-radius: 50px;
@@ -118,7 +118,7 @@
   }
 /* Styling The Landing */
   .landing-img{
-    width: 80%;
+    width: 83%;
   }
   .landing {
     padding: 170px 0 200px;
@@ -141,17 +141,16 @@
     margin-bottom: 20px;
   }
   .landing-des {
-    max-width: 550px;
+    max-width: 575px;
     line-height: 1.5;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
     margin: auto;
   }
   .get {
-    padding: 28px 80px;
+    padding: 28px 100px;
     font-size: 18px;
     border-radius: 50px;
     font-weight: 600;
-    letter-spacing: 1px;
     margin: 40px auto 0;
     background: linear-gradient(to right, var(--Pink) 50%, white 50%);
     background-size: 201% 100%;
@@ -383,7 +382,7 @@
   }
 /* Styling The Section Under The Features */
   .build {
-    padding: 125px 0 400px;
+    padding: 125px 0 375px;
   }
   .build-title {
     text-align: center;
@@ -396,14 +395,15 @@
     .build-title {
       font-size: 1.7rem;
     }
-    .build .get {
+    .get {
       padding: 25px 80px;
+      font-size: 16px;
     }
   }
 /* Styling The Footer */
   footer {
     background-color: var(--VeryDarkCyan);
-    padding: 125px 0;
+    padding: 125px 0 100px;
     position: relative;
   }
   footer::before {
@@ -414,7 +414,7 @@
     background-image: url(../images/bg-footer-top-desktop.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    bottom: calc(100% - 50px);
+    bottom: calc(100% - 70px);
   }
   @media (max-width: 1350px) {
     footer {
@@ -423,6 +423,9 @@
     footer::before {
       bottom: calc(100% - 110px);
       height: 50% !important;
+    }
+    .social {
+      margin-top: 30px !important;
     }
   }
   @media (max-width: 1279px) {
@@ -454,15 +457,15 @@
   footer > .container {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 85%;
   }
-  .box {
+  footer .box {
     flex: 1;
   }
   .footer-p {
     max-width: 350px;
     line-height: 1.6;
-    margin: 25px 0 30px;
+    margin: 25px 0;
   }
   .info > li {
     display: flex;
@@ -474,11 +477,11 @@
     cursor: pointer;
   }
   .social {
-    margin-top: 30px;
+    margin-top: 100px;
   }
   .social  i {
     transition: 0.3s;
-    font-size: 28px;
+    font-size: 30px;
   }
   .social  i:hover {
     color: var(--color);
